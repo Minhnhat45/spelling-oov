@@ -1,0 +1,11 @@
+version: '2.3'
+services:
+  plugin:
+    image: registry.gitlab.com/vaisawesome/randd/nlp/spelling-oov:0.1
+    build: .
+    ports:
+      - "4445:4445"
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+
