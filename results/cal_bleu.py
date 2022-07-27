@@ -16,4 +16,4 @@ with open(sys.argv[2], "r") as f:
     hyp = f.readlines()
 
 BLEUscore = nltk.translate.bleu_score.sentence_bleu([ref], hyp, weights = (0.5, 0.5))
-print(BLEUscore)
+print(BLEUscore*100)
