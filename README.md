@@ -54,9 +54,6 @@ Chạy `bash run_infer_service.sh` để infer từ vào docker service
 ## Kết quả
 
 |    Mô hình    | rnn   | transformer  | transformer_V2  |
-| ------------- | ----- |  ----------- | --------------- |
 | Encoder layer |  1    |       1      |        5        |
-| --------------| ----- |  ----------- | --------------- |
 | Decoder layer |  1    |       1      |        5        |
-| ------------- | ----- |  ----------- | --------------- |
 |     BLEU      | 30.63 |     35.41    |      38.23      |
