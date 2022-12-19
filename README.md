@@ -10,8 +10,9 @@ pip install OpenNMT-py
 
 ## Data Preparation
 
+Ban đầu data cần chia thành hai phần là Train và Valid. Với hai loại data Tiếng Anh (en) và Tiếng Việt (vi) ta sẽ cần có bốn file data **[train.vi, train.en, val.vi, val.en]**. Thư mục chứa 4 file sẽ là **oov_data/train_raw**
 
-Data được xử lý theo dạng character tokenize
+Sau đó data được xử lý theo dạng character tokenize
 
 Để chạy xử lý data:
 
