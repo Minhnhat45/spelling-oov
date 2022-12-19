@@ -8,8 +8,16 @@ pip install -r requirements.txt
 pip install OpenNMT-py
 ```
 
-## Build vocab
+## Data Preparation
+
+
 Data được xử lý theo dạng character tokenize
+
+Để chạy xử lý data:
+
+`bash run_prepare_data.sh`
+
+## Build vocab
 
 Để build vocab chạy phần lệnh: 
 
